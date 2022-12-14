@@ -1,0 +1,45 @@
+.info-box{
+    &::backdrop{
+        background-color: rgba(0, 0, 0, 0.479);
+    }
+    
+    width: 70vw;
+    height: 55vh;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0;
+}
+.modal-btn{
+    border:none;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    
+    img{
+        width: 250px;
+        margin-right: 10px;
+        max-height: 350px;
+        
+        
+    }    
+}
+.close-btn{
+    position: absolute;
+    right: 0;
+    border:none;
+    height:40px;
+    width:40px;
+    top: 0;
+    background-color: grey;
+}
+.close-btn:hover{
+    background-color: white;
+    transition: 0.5s;
+}
